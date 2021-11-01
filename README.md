@@ -1,2 +1,2 @@
 # flask-api-project-
-My first attempt of building a function flask api
+My first attempt of building a functional flask api
