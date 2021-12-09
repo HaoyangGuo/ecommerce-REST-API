@@ -1,4 +1,4 @@
-uwsgi
+uWSGI
 Flask
 Flask-JWT
 Flask-RESTful
