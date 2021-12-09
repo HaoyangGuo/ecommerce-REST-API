@@ -58,4 +58,7 @@ class Item(Resource):
 class ItemsList(Resource):
     def get(self):
         items = [item.json() for item in ItemModel.query.all()]
-        return {"items": items}
+        if items:
+            return {"items": items}
+        else:
+            return {"Message": "No item exists at the moment"}
