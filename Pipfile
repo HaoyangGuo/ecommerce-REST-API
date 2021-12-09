@@ -8,6 +8,7 @@ flask = "*"
 flask-jwt = "*"
 flask-restful = "*"
 flask-sqlalchemy = "*"
+uwsgi = "*"
 
 [dev-packages]
 autopep8 = "*"
