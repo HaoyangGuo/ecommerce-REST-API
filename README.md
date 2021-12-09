@@ -2,7 +2,7 @@
 This is a functional REST API built with Flask and deployed on heroku. This API is designed and implemented for an imaginary online store, so it allows users to create accounts, authenticate, and interact with stores and items. 
 
 ## Endpoints:
-https://test-rest-api-stores.herokuapp.com/
+https://test-rest-api-stores.herokuapp.com
 ### security
 - /Register - POST, parameters: {"username": YOUR_USER_NAME, "password": YOUR_PASSWORD}
 - /auth - POST, parameters: {"username": YOUR_USER_NAME, "password": YOUR_PASSWORD}
